@@ -50,6 +50,19 @@ namespace ConsoleApp1
             count--;
         }
 
+        public int IndexOf(int item)
+        {
+            // If we find it, return index
+            // Otherwise, return -1
+            // O(1)
+            // O(n)
+            for (int i = 0; i < count; i++)
+                if (items[i] == item)
+                    return i;
+
+            return -1;
+        }
+
         public void Print()
         {
             for (int i = 0; i < count; i++)

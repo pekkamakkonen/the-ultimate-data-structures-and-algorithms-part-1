@@ -11,8 +11,8 @@ namespace ConsoleApp1
             numbers.Insert(20);
             numbers.Insert(30);
             numbers.Insert(40);
-            numbers.RemoveAt(4);
-            numbers.Print();
+          //  numbers.RemoveAt(4);
+            Console.WriteLine(numbers.IndexOf(100));
             Console.ReadKey();
         }
     }
